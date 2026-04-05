@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		905810062F82A63700FF62AA /* IdentityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905810052F82A63700FF62AA /* IdentityViewModel.swift */; };
+		905810082F82A92C00FF62AA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905810072F82A92C00FF62AA /* Models.swift */; };
+		9058100A2F82A95100FF62AA /* GalacticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905810092F82A95100FF62AA /* GalacticService.swift */; };
+		9058100C2F82A97400FF62AA /* GalacticViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9058100B2F82A97400FF62AA /* GalacticViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +33,9 @@
 		90580FC72F82920000FF62AA /* Random.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Random.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90580FD42F82920100FF62AA /* RandomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90580FDE2F82920100FF62AA /* RandomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		905810052F82A63700FF62AA /* IdentityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityViewModel.swift; sourceTree = "<group>"; };
+		905810072F82A92C00FF62AA /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		905810092F82A95100FF62AA /* GalacticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalacticService.swift; sourceTree = "<group>"; };
+		9058100B2F82A97400FF62AA /* GalacticViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalacticViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,7 +84,9 @@
 		90580FBE2F82920000FF62AA = {
 			isa = PBXGroup;
 			children = (
-				905810052F82A63700FF62AA /* IdentityViewModel.swift */,
+				905810072F82A92C00FF62AA /* Models.swift */,
+				9058100B2F82A97400FF62AA /* GalacticViewModel.swift */,
+				905810092F82A95100FF62AA /* GalacticService.swift */,
 				90580FC92F82920000FF62AA /* Random */,
 				90580FD72F82920100FF62AA /* RandomTests */,
 				90580FE12F82920100FF62AA /* RandomUITests */,
@@ -242,7 +248,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				905810062F82A63700FF62AA /* IdentityViewModel.swift in Sources */,
+				905810082F82A92C00FF62AA /* Models.swift in Sources */,
+				9058100C2F82A97400FF62AA /* GalacticViewModel.swift in Sources */,
+				9058100A2F82A95100FF62AA /* GalacticService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
